@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+      box-sizing: border-box;
+  }
+
+  body {
+        height: 100vh;
+    display: flex;
+      background-image: url(Fundo.jpg)
+  }
+
+    button {
+      background-color: transparent;
+        border: transparent;
+      color: white;
+      font-family: cursive;
+      height: 100%;
+      width: 100%;
+      animation-name: comecar;
+      animation-duration: 1.5s;
+      animation-iteration-count: infinite;
+}
+
+@keyframes comecar {
+    0% {font-size: 100px}
+   50% {font-size: 70px}
+   100% {font-size: 100px}
+}

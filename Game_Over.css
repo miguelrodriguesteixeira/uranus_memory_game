@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+Body {
+background-image: url(Fundo.jpg);
+    display: flex;
+    height: 100vh;
+}
+
+.game_over {
+    text-align: center;
+    margin: auto;
+    height: 80%;
+    width: fit-content;
+    margin: auto;
+    color: white;
+    position: relative;
+    font-family: VCR OSD Mono;
+    font-size: 150px;
+}
+
+.game_overinfo {
+    text-align: center;
+    height: 50px;
+    width: fit-content;
+    margin: auto;
+    color: white;
+    position: relative;
+    font-family: VCR OSD Mono;
+    font-size: 30px;
+}
+
+.informacoes {
+text-align: center;
+ background-color: black;
+ border: solid 3px white;
+ border-radius: 5px;
+ margin: 15px;
+ color: white;
+ font-family: VCR OSD Mono;
+ font-size: 30px;
+ position: relative;
+ margin: auto;
+ bottom: 0;
+ right: 0;
+ height: 50px;
+ width: 300px;
+}
+
+button:hover {
+    transform: scale(1.05);
+    transition: transform .05s;
+}
+
+img {
+    margin-top: 70px;
+}

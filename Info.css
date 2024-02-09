@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+        padding: 0;
+    margin: 0;
+    }
+
+    body {
+    background-image: url(Fundo.jpg);
+        height: 100vh;
+        display: flex;
+        font-family: VCR OSD Mono;
+    }
+
+    .bigbox {
+    margin: auto;
+    width: 1000px;
+    height: 600px;
+    }
+
+    p {
+    margin: 2px 
+    }
+
+    img {
+    float:left;
+    margin: 7px;
+    padding: 3px;
+    height: 165px;
+    width: 165px; 
+    margin-right: 25px;
+    }
+
+    .mercurio {
+    width: 770px;
+    height: 370px;
+    margin: auto;
+    padding: 5px;
+    border: 5px solid white;
+    border-radius: 15px;  
+    background-image: url(Estrelas.jpg);
+    color: white;  
+    }
+
+    .venus {
+    width: 770px;
+    height: 325px;
+    margin: auto;
+    padding: 5px;
+    border: 5px solid white;
+    border-radius: 15px;  
+    background-image: url(Estrelas.jpg);
+    color: white;    
+    }
+
+    .terra {
+    width: 770px;
+    height: 325px;
+    margin: auto;
+    padding: 5px;
+    border: 5px solid white;
+    border-radius: 15px;  
+    background-image: url(Estrelas.jpg);
+    color: white;  
+    }
+
+    .marte {
+    width: 770px;
+    height: 370px;
+    margin: auto;
+    padding: 5px;
+    border: 5px solid white;
+    border-radius: 15px;  
+    background-image: url(Estrelas.jpg);
+    color: white;    
+    }
+    
+    .jupiter {
+    width: 770px;
+    height: 350px;
+    margin: auto;
+    padding: 5px;
+    border: 5px solid white;
+    border-radius: 15px;  
+    background-image: url(Estrelas.jpg);
+    color: white;    
+    }
+    
+    .saturno {
+    width: 770px;
+    height: 395px;
+    margin: auto;
+    padding: 5px;
+    border: 5px solid white;
+    border-radius: 15px;  
+    background-image: url(Estrelas.jpg);
+    color: white;    
+    }
+    
+    .urano {
+    width: 770px;
+    height: 395px;
+    margin: auto;
+    padding: 5px;
+    border: 5px solid white;
+    border-radius: 15px;
+    background-image: url(Estrelas.jpg);
+    color: white;    
+    }
+    
+    .neptuno {
+    width: 770px;
+    height: 350px;
+    margin: auto;
+    padding: 5px;
+    border: 5px solid white;
+    border-radius: 15px;  
+    background-image: url(Estrelas.jpg);
+    color: white;    
+    }
+    
+    .sol {
+    width: 770px;
+    height: 375px;
+    margin: auto;
+    padding: 5px;
+    border: 5px solid white;
+    border-radius: 15px;  
+    background-image: url(Estrelas.jpg);
+    color: white;    
+    }
+    
+    .lua {
+    width: 770px;
+    height: 300px;
+    margin: auto;
+    padding: 5px;
+    border: 5px solid white;
+    border-radius: 15px;  
+    background-image: url(Estrelas.jpg);
+    color: white;    
+    }
+    
+    .asteroide {
+    width: 770px;
+    height: 280px;
+    margin: auto;
+    padding: 5px;
+    border: 5px solid white;
+    border-radius: 15px;  
+    background-image: url(Estrelas.jpg);
+    color: white;
+    }
+    
+    .cometa {
+    width: 770px;
+    height: 260px;
+    margin: auto;
+    padding: 5px;
+    border: 5px solid white;
+    border-radius: 15px;  
+    background-image: url(Estrelas.jpg);
+    color: white; 
+    }
+
+    .galaxia {
+    width: 770px;
+    height: 255px;
+    margin: auto;
+    padding: 5px;
+    border: 5px solid white;
+    border-radius: 15px;  
+    background-image: url(Estrelas.jpg);
+    color: white;    
+    }
+    
+    .buraco_negro {
+    width: 770px;
+    height: 325px;
+    margin: auto;
+    padding: 5px;
+    border: 5px solid white;
+    border-radius: 15px;  
+    background-image: url(Estrelas.jpg);
+    color: white;    
+    }
+
+    .universo {
+    width: 770px;
+    height: 275px;
+    margin: auto;
+    padding: 5px;
+    border: 5px solid white;
+    border-radius: 15px;  
+    background-image: url(Estrelas.jpg);
+    color: white;      
+    }
+
+    .info {
+    margin: 7px;
+    }
+
+    .titulo {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin: 50px;
+    }
+
+    .voltar {
+      background-color: black;
+      border: solid 3px white;
+      border-radius: 5px;
+      margin: 15px;
+      color: white;
+      font-family: VCR OSD Mono;
+      font-size: 20px;
+      position: absolute;
+      margin-bottom: 2%;
+      margin-left: 2%;
+      bottom: 0;
+      height: 50px;
+      width: 130px;
+  }
+
+      button:hover {
+    transform: scale(1.05);
+    transition: transform .05s
+}

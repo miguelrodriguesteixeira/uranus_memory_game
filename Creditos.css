@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+        }
+    
+    body {
+          height: 97vh;
+      display: flex;
+        background-image: url(Fundo.jpg);
+    }
+    
+    .creditos {
+        margin: auto;
+        height: 630px;
+        width: 500px;
+        color: white;
+        font-family: VCR OSD Mono;
+        font-size: 15px;
+    }
+    
+    .trabalho {
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    .copyright {
+    text-align: center;
+    font-size: 25px;
+        margin-top: 50px;
+    }
+
+    .voltar {
+      background-color: black;
+      border: solid 3px white;
+      border-radius: 5px;
+      margin: 15px;
+      color: white;
+      font-family: VCR OSD Mono;
+      font-size: 20px;
+      position: absolute;
+      margin-bottom: 2%;
+      margin-left: 2%;
+      bottom: 0;
+      height: 50px;
+      width: 130px;
+  }
+
+      button:hover {
+    transform: scale(1.05);
+    transition: transform .05s
+}

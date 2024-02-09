@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+      box-sizing: border-box;
+  }
+  
+  button {
+      background-color: black;
+      border: solid 3px white;
+      border-radius: 5px;
+      margin: 15px;
+      width: calc(100%);
+      height: calc(33.333% - 30px);
+      color: white;
+      font-family: VCR OSD Mono;
+      font-size: 35px;
+  }
+  
+  .menu{
+      height: 250px;
+      width: 200px;
+      margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .jogar{
+      margin-top: 60px;
+     
+  }
+  
+  body{
+        height: 100vh;
+    display: flex;
+    background-image: url(Fundo.jpg);
+  }
+  
+  .title{
+      color: white;
+      font-size: 140px;
+      font-family: VCR OSD Mono;
+  }
+  
+  .bigbox{
+      margin: auto;
+      height: 500px;
+  }
+  
+  .subtitle{
+      font-size: 50px;
+      color: white;
+      font-family: VCR OSD Mono;
+  }
+
+button:hover {
+    transform: scale(1.05);
+    transition: transform .05s
+}
